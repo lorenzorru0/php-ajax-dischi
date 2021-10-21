@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E3A46;
+    padding: 1.25rem 1.25rem;
+}
+header img {
+    width: 2.5rem;
+}
+
+/* Main */
+main {
+    background-color: #1E2D3B;
+    min-height: calc(100vh - 4.375rem);
+    padding: 3.125rem 0;
+}
+.container {
+    max-width: 61.25rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.album {
+    width: calc(20% - 2.50rem);
+    margin: 1.25rem;
+    padding: 1.25rem;
+    background-color: #2E3A46;
+}
+.album img {
+    width: 100%;
+}
+.album h2 {
+    padding: 1.25rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.album p {
+    text-align: center;
+    color: #808080;
+    font-size: 1rem;
+}
