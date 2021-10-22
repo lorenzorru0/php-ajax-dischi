@@ -22,8 +22,9 @@
             </div>
             <div>
                 <label for="selectGenre">Select genre</label>
-                <select name="selectGenre" id="selectGenre" v-model="genreSelected">
+                <select name="selectGenre" id="selectGenre" v-model="genreSelected" @change="albumFilter()">
                     <option value="" selected>All genre</option>
+                    <option v-for="(genre, index) in genres" :key="index" :value="genre">{{genre}}</option>
                 </select>
             </div>
         </header>
