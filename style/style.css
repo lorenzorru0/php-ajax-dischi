@@ -21,6 +21,16 @@ header {
 header img {
     width: 2.5rem;
 }
+header label {
+    margin-right: .625rem;
+    color: #fff;
+}
+header select {
+    padding: .625rem .9375rem;
+    border-radius: .625rem;
+    background-color: #1E2D3B;
+    color: #fff;
+}
 
 /* Main */
 main {

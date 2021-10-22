@@ -17,7 +17,15 @@
     
     <div id="app">
         <header>
-            <img src="./img/spotify-logo.png" alt="Logo">
+            <div>
+                <img src="./img/spotify-logo.png" alt="Logo">
+            </div>
+            <div>
+                <label for="selectGenre">Select genre</label>
+                <select name="selectGenre" id="selectGenre" v-model="genreSelected">
+                    <option value="" selected>All genre</option>
+                </select>
+            </div>
         </header>
 
         <main>
